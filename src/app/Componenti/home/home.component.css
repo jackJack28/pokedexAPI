@@ -1,0 +1,124 @@
+.div{
+    background-color: rgba(175, 175, 175, 0.71);
+}
+
+.div .btn{
+    margin-top: 40px;
+    margin-left: 595px;
+    background-color: white;
+    border: solid 1px black;
+    width: 300px;
+    height: 30px;
+}
+
+.div .btn2{
+    margin: 40px 0;
+    margin-left: 595px;
+    background-color: white;
+    border: solid 1px black;
+    width: 300px;
+    height: 30px;
+}
+
+.div .btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.div .btn2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.contenitore{
+    display: flex;
+    padding-left: 150px;
+    flex-wrap: wrap;
+}
+
+.example-card{
+    max-width: 400px;
+    width: 350px;
+    height: 300px;
+    box-shadow: 8px 8px #9eb0b67e;
+    margin: 25px 20px;
+}
+
+.uno{
+    position: relative;
+    bottom: 45px;
+}
+
+.due{
+    position: relative;
+}
+
+.immagine{
+    position: absolute;
+}
+
+.card-header{
+    position: relative;
+    top: 95px;
+}
+
+.card-subtitle{
+    margin-top: -3px;
+}
+
+.tre{
+    position: absolute;
+}
+
+.span{
+    position: relative;
+    left: 223px;
+    bottom: 42px;
+    font-size: 18px;
+    color: gray;
+}
+
+.card-content{
+    position: relative;
+    top: 100px;
+}
+
+.card-contentt{
+    display: flex;
+}
+
+.card-contentt div{
+    flex-basis: 50%;
+}
+
+.titolo1{
+    font-weight: 500;
+    color: black;
+}
+
+.titolo{
+    font-weight: 500;
+    color: rgb(151, 40, 47);
+}
+
+.margine{
+    margin-top: 5px;
+}
+
+.margine1{
+    margin-top: 15px;
+}
+
+.margine1 .stats-titolo{
+    font-weight: 500;
+    font-size: medium;
+}
+
+.statistiche{
+    margin-top: 5px;
+    display: flex;
+}
+
+.statistiche div{
+    flex-basis: 50%;
+}

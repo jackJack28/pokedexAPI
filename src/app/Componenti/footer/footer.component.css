@@ -1,0 +1,77 @@
+.footer{
+    background-color: rgb(144, 143, 143);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 55px;
+}
+
+.blocco-uno{
+    margin-right: 20px;
+}
+
+.blocco-uno ul{
+    list-style-type: none;
+}
+
+.titolo{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    cursor: default;
+}
+
+.blocco-uno ul li{
+    padding-bottom: 2px;
+}
+
+.blocco-uno ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer hr{
+    width: 0.2px;
+    height: 160px;
+    margin: 10px 0; 
+    border-radius: 40px;
+    background: rgb(228, 224, 224);
+    opacity: 0.75;
+}
+
+.blocco-due{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.blocco-due ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.blocco-due ul .facebook{
+    padding-right: 5px;
+}
+
+.blocco-due ul li{
+    padding: 0px 5px;
+}
+
+.blocco-tre img{
+    padding-left: 40px; padding-top: 15px; margin-bottom: -8px; width: 150px;
+}
+
+.blocco-tre ul{
+    list-style-type: none;
+}
+
+.blocco-tre li{
+    padding-bottom: 2px;
+}
+
+.blocco-tre li a{
+    text-decoration: none; color: white;
+}

@@ -1,0 +1,76 @@
+<div class="div">
+  <button class="btn" (click)="caricaPokemon()">Carica altri pokemon</button>
+<div class="contenitore">
+ <div *ngFor="let dato of dati">
+    <!--<a routerLink="/{{persona.numero}}" style="color: inherit; text-decoration: none; cursor: pointer;">
+        <app-card style="color: inherit; text-decoration: none; cursor: pointer;"></app-card>
+    </a>-->
+    <!-- <a routerLink="/{{dato.name}}" style="color: inherit; text-decoration: none; cursor: pointer;"> -->
+     <mat-card class="example-card">
+      <div class="uno">
+        <div class="due">
+        <img [src]="dato.sprites.front_default" alt="Pokémon photo" width="120px" class="immagine">
+        </div>
+        <mat-card-header class="card-header">
+          <mat-card-title>{{dato.name}}</mat-card-title>
+          <mat-card-subtitle class="card-subtitle">{{dato.types[0].type.name}}</mat-card-subtitle>
+          <div class="tre">
+            <span class="span">{{dato.id}}</span>
+          </div>
+        </mat-card-header>
+        <mat-card-content class="card-content">
+          <div class="card-contentt">
+            <div>
+              <span class="titolo1">Altezza:</span> &nbsp;
+              <span>{{dato.height}} m</span>
+            </div>
+            <div>
+              <span class="titolo1">Peso:</span> &nbsp;
+              <span>{{dato.weight}} Kg</span>
+            </div>
+          </div>
+          <!-- <div class="margine">
+            <span class="titolo1">Abilità speciali:</span> &nbsp;
+            <span>{{dato.abilities[0].ability.name}}, &nbsp; {{dato.abilities[1].ability.name}} &nbsp; {{dato.abilities[2].ability.name}}</span>
+          </div> -->
+          <div class="margine1">
+            <span class="stats-titolo">Statistiche</span>
+            <div class="statistiche">
+            <div>
+              <span class="titolo">HP:</span> &nbsp;
+              <span>{{dato.stats[0].base_stat}}</span>
+            </div>
+            <div>
+              <span class="titolo">Attacco:</span> &nbsp;
+              <span>{{dato.stats[1].base_stat}}</span>
+            </div>
+          </div>
+            <div class="statistiche">
+              <div>
+                <span class="titolo">Difesa:</span> &nbsp;
+                <span>{{dato.stats[2].base_stat}}</span>
+              </div>
+              <div>
+                <span class="titolo">Attacco Speciale:</span> &nbsp;
+                <span>{{dato.stats[3].base_stat}}</span>
+              </div>
+            </div>
+            <div class="statistiche">
+              <div>
+                <span class="titolo">Difesa Speciale:</span> &nbsp;
+                <span>{{dato.stats[4].base_stat}}</span>
+              </div>
+              <div>
+                <span class="titolo">Velocità:</span> &nbsp;
+                <span>{{dato.stats[5].base_stat}}</span>
+              </div>
+            </div>
+          </div>
+        </mat-card-content>
+      </div>
+     </mat-card>
+    <!-- </a> -->
+ </div>
+</div>
+<button class="btn2" (click)="caricaPokemon()">Carica altri pokemon</button>
+</div>

@@ -1,0 +1,217 @@
+.example-card{
+    width: 1000px;
+    max-height: 2500px;
+    box-shadow: 8px 8px #9eb0b67e;
+    margin: 25px 255px;
+}
+
+.uno{
+    position: relative;
+    bottom: 45px;
+};
+
+.due{
+    position: relative;
+}
+
+.tre{
+    position: absolute;
+}
+
+.card-header{
+    position: relative; top: 220px;
+}
+
+.card-title{
+    position: absolute;
+    left: 445px;
+    bottom: 160px;
+    font-size: 32px;
+}
+
+.div-numero{
+    position: absolute;
+    left: 870px;
+    bottom: 160px;
+}
+
+.numero{
+    padding: 0px 10px;
+    margin-right: 10px;
+    font-size: 32px;
+    color: gray;
+}
+
+.div-p{
+    max-width: 600px;
+}
+
+.div-p p{
+    position: relative;
+    left: 320px;
+    bottom: 50px;
+    font-size: medium;
+}
+
+.flex{
+    display: flex;
+    margin-top: 250px;
+}
+
+.content-sx{
+    height: 500px;
+    width: 500px;
+    flex-basis: 50%;
+}
+
+.content-sx h3{
+    position: relative;
+    top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.valori{
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.valori .cerchi{
+    display: flex;
+}
+
+.valori .cerchio{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid black 1.6px;
+    margin: 0px 3px;
+}
+
+.valori p{
+    position: relative;
+    left: 145px; top: 5px;
+    font-size: medium;
+}
+
+hr{
+    width: 0.2px;
+    size: 400;
+    border-radius: 40px;
+    background: rgb(228, 224, 224);
+    padding: 1px;
+    opacity: 0.75;
+    position: relative;
+    left: 8px;
+}
+
+.content-dx{
+    flex-basis: 50%;
+    margin-left: 20px;
+}
+
+.info-1{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.info-2{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.info-3{
+    display: flex;
+    margin-left: 50px;
+}
+
+.caratteristica{
+    flex-basis: 50%;
+}
+
+.caratteristica h3{
+    position: relative;
+    top: 15px;
+}
+
+.div-uno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-due{
+    flex-basis: 50%;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.div-tre{
+    flex-basis: 50%;
+    display: flex;
+}
+
+.div-due .subtitle{
+    margin-right: 30px;
+}
+
+.div-due .subtitle-2{
+    margin-right: 20px;
+}
+
+h2{
+    padding-bottom: 12px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+.evoluzioni{
+    display: flex;
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+
+.evo-1{
+    flex-basis: 20%;
+}
+
+.evo-info-1{
+    padding-top: 11px;
+}
+
+.div-subtitle{
+    display: flex;
+}
+
+.subtitle-title{
+    flex-basis: 50%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.subtitle-number{
+    flex-basis: 50%;
+}
+
+.freccia{
+    flex-basis: 20%;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.evo-2{
+    flex-basis: 20%;
+    margin-right: 40px;
+}
+
+.evo-info-2{
+    padding-top: 10px;
+}
+
+.evo-info-3{
+    padding-top: 2px;
+}
+
